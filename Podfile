@@ -1,4 +1,4 @@
 target 'UIMultiPickerDemo' do
   use_frameworks!
-  pod 'UIMultiPicker', :git => 'https://github.com/aselivanov/UIMultiPicker.git', :branch => 'develop'
+  pod 'UIMultiPicker', :git => 'https://github.com/aselivanov/UIMultiPicker.git', :branch => 'master'
 end
