@@ -15,9 +15,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tastesPicker.options = ViewController.TASTES;
-        tastesPicker.selectedIndexes = [0,2];
-        tastesPicker.addTarget(self, action: #selector(ViewController.selected(_:)), for: .valueChanged);
+        
+        tastesPicker.options = ViewController.TASTES
+        tastesPicker.selectedIndexes = [0,2]
+
+        tastesPicker.addTarget(self, action: #selector(ViewController.selected(_:)), for: .valueChanged)
+
+        tastesPicker.color = .gray
+        tastesPicker.tintColor = .black
+        tastesPicker.font = .systemFont(ofSize: 30, weight: .bold)
     }
     
     @objc func selected(_ sender: UIMultiPicker) {
