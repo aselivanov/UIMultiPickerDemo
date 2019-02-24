@@ -1,5 +1,5 @@
 PODS:
-  - UIMultiPicker (0.4.0)
+  - UIMultiPicker (0.4.1)
 
 DEPENDENCIES:
   - UIMultiPicker (from `https://github.com/aselivanov/UIMultiPicker.git`, branch `master`)
@@ -11,11 +11,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   UIMultiPicker:
-    :commit: d69113565d11ab9a8a54f7ab62bdfae24fd655f5
+    :commit: aa32dd4e328a7736107ea3e347811d135bddbe02
     :git: https://github.com/aselivanov/UIMultiPicker.git
 
 SPEC CHECKSUMS:
-  UIMultiPicker: d73c047abffb2a2f67c652c72e8ada11c4f33d32
+  UIMultiPicker: 8800223c5145665e0b02a73d0597a4bf83d67b2a
 
 PODFILE CHECKSUM: 1cb91b2b9f41e6e19198678af502b3f4022a19c3
 
