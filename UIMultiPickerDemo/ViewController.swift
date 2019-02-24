@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         tastesPicker.color = .gray
         tastesPicker.tintColor = .black
         tastesPicker.font = .systemFont(ofSize: 30, weight: .bold)
+        
+        tastesPicker.highlight(2, animated: false) // centering "Bitter"
     }
     
     @objc func selected(_ sender: UIMultiPicker) {
