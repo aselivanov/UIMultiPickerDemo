@@ -1,5 +1,5 @@
 PODS:
-  - UIMultiPicker (0.4.1)
+  - UIMultiPicker (0.6.2)
 
 DEPENDENCIES:
   - UIMultiPicker (from `https://github.com/aselivanov/UIMultiPicker.git`, branch `master`)
@@ -11,12 +11,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   UIMultiPicker:
-    :commit: aa32dd4e328a7736107ea3e347811d135bddbe02
+    :commit: 9dc90793f6e14a5adcaf3e1763763048ad813105
     :git: https://github.com/aselivanov/UIMultiPicker.git
 
 SPEC CHECKSUMS:
-  UIMultiPicker: 8800223c5145665e0b02a73d0597a4bf83d67b2a
+  UIMultiPicker: 29bf824c5251822ca4040b933f6204e617e6ba3f
 
 PODFILE CHECKSUM: 1cb91b2b9f41e6e19198678af502b3f4022a19c3
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.0

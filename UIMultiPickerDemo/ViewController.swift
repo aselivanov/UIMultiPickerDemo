@@ -8,6 +8,12 @@ class ViewController: UIViewController {
         "Sour",
         "Bitter",
         "Salty",
+        "Umami",
+        "Some very very very looooooong item",
+        "Sweet",
+        "Sour",
+        "Bitter",
+        "Salty",
         "Umami"
     ];
     

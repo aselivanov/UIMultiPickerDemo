@@ -163,20 +163,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UIMultiPickerDemo/Pods-UIMultiPickerDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/UIMultiPicker/UIMultiPicker.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-UIMultiPickerDemo/Pods-UIMultiPickerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIMultiPicker.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-UIMultiPickerDemo/Pods-UIMultiPickerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIMultiPickerDemo/Pods-UIMultiPickerDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIMultiPickerDemo/Pods-UIMultiPickerDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8A7921BB76C1FA99DFD61705 /* [CP] Check Pods Manifest.lock */ = {
